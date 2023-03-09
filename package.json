@@ -1,19 +1,27 @@
 {
-  "name": "mini-project-11",
+  "name": "mini-project",
   "version": "1.0.0",
-  "description": "In this mini-project, you will work with a group to add routes to an existing application. You will create one wildcard route for serving up a 404 page, as well as a diagnostics route for logging failed form validation.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "server.js",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "In this mini-project, you will work with a group to add routes to an existing application. You will create one wildcard route for serving up a 404 page, as well as a diagnostics route for logging failed form validation.",
   "devDependencies": {
     "nodemon": "^2.0.21"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDR8888/skibbity-bop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/JDR8888/skibbity-bop/issues"
+  },
+  "homepage": "https://github.com/JDR8888/skibbity-bop#readme"
 }
