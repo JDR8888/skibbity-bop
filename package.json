@@ -1,0 +1,19 @@
+{
+  "name": "mini-project-11",
+  "version": "1.0.0",
+  "description": "In this mini-project, you will work with a group to add routes to an existing application. You will create one wildcard route for serving up a 404 page, as well as a diagnostics route for logging failed form validation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
