@@ -10,7 +10,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "description": "In this mini-project, you will work with a group to add routes to an existing application. You will create one wildcard route for serving up a 404 page, as well as a diagnostics route for logging failed form validation.",
   "devDependencies": {
     "nodemon": "^2.0.21"
   },
